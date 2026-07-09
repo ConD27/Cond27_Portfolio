@@ -417,6 +417,31 @@ a.pure-button-primary {
     background-color: #aaa;
 }
 
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contact-box {
+    margin: 30px;
+    background-color: #1f8dd6;
+    padding: 5px;
+    border-radius: 5px;
+    width: 33%;
+    text-align: center;
+}
+
+.contact-box h3 {
+    color: #fff;
+}
+
+.contact-box a {
+    margin: 20px;
+}
+
 
 /*
  * -- DESKTOP (AND UP) MEDIA QUERIES --
